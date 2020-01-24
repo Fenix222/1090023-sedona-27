@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Андрей Митьковский](https://up.htmlacademy.ru/htmlcss/27/user/1090023).
-* Наставник: [ Натали Белоева](https://htmlacademy.ru/profile/id1123699)
+* Студент:  [Андрей Митьковский](https://up.htmlacademy.ru/htmlcss/27/user/1090023).
+* Наставник:  [ Натали Белоева](https://htmlacademy.ru/profile/id1123699)
 
 ---
 
