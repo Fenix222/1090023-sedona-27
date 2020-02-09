@@ -72,6 +72,14 @@ line-height: 24px;
 font-size: 21px;
 line-height: 26px;
 font-weight: bold;
+color: white;
+text-transform: uppercase;
+}
+.find-hotels {
+background-color: #766357;
+}
+.find-search {
+background-color: #81b3d2;    
 }
 .find label {
 line-height: 26px;
@@ -99,10 +107,36 @@ line-height: 26px;
 }
 .contact-social {
 background-color: #81b3d2;
- 
+}
+.hotels {
+
+}
+.hotels-list{
+list-style: none;
+}
+.hotels h2 {
+font-size: 21px;
+line-height: 26px;
+font-weight: bold;   
+}
+.hotels a {
+color: black;
+text-decoration: none;   
+}
+.hotels button {
+line-height: 21px;
+font-weight: bold;
+color: white;
+text-transform: uppercase;
 }
 
+.hotels-details{
+background-color: #81b3d2;
+}
 
+.hotels-reserved{
+background-color: #766357;
+}
 
 
 
