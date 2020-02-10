@@ -3,9 +3,8 @@ font-family: 'PT Sans', sans-serif;
 font-size: 14px;
 line-height: 21px;
 text-transform: uppercase;
-margin-left: 42px;
-margin-right: 42px;
 background-color: #f2f2f2;
+color: black;
 
 }
 .visually-hidden {
@@ -30,18 +29,18 @@ right: 50%;
    
 }
 .navigation-list  {
-list-style: none;
-line-height: 26px;
+
 }
 .navigation-list li {
 
 }
 .navigation-list a {
 color: black;
-text-decoration: none;    
+text-decoration: none;
+line-height: 26px;    
 }
 .photography {
-background-image: url(/Users/andrey/Documents/GitHub/1090023-sedona-27/img/backgroundphoto.jpg);
+background-image: url(../img/backgroundphoto.jpg);
 background-repeat: no-repeat;
 }
 .advantage {
@@ -56,7 +55,8 @@ font-weight: bold;
 line-height: 26px;
 }
 .advantage h2 {
-font-size: 21px;    
+font-size: 21px; 
+line-height: 21px;   
 }
 .find {
 
@@ -89,24 +89,25 @@ font-weight: bold;
 line-height: 26px;
 font-weight: bold;
 }
-.contact {
+.footer {
 
 }
-.contact-visit {
+.footer-visit {
 font-size: 21px;
 line-height: 26px;
 font-weight: bold;    
 }
-.contact-visit a {
+.footer-visit a {
 text-decoration: none;
 color: black;
 font-weight: bold;
 }
-.contact-site {
+.footer-site {
 line-height: 26px;
 }
-.contact-social {
+.footer-social {
 background-color: #81b3d2;
+list-style: none;
 }
 .hotels {
 
