@@ -27,11 +27,14 @@ body {
  right: 50%;
    
 }
-.navigation-list  {
-
+.navigation-list a:hover  {
+ color:#81b3d2;
+}
+.navigation-list a:active  {
+ color:#dbdbdb;
 }
 .navigation-list li {
-
+ list-style: none;
 }
 .navigation-list a {
  color: black;
@@ -126,11 +129,13 @@ body {
 .footer-site {
  line-height: 26px;
 }
+.footer-social{
+list-style: none;
+}
 
-
-.footer-social {
+.footer-social a {
  background-color: #81b3d2;
- list-style: none;
+ 
 }
 .footer-social:hover {
  background-color: #669ec0;
