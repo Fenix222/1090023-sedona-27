@@ -1,31 +1,30 @@
 body {
-font-family: 'PT Sans', sans-serif;
-font-size: 14px;
-line-height: 21px;
-text-transform: uppercase;
-background-color: #f2f2f2;
-color: black;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+ text-transform: uppercase;
+ background-color: #f2f2f2;
+ color: black;
 
 }
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-padding: 0px;
-border: 0px;
-clip: rect(0 0 0 0);
-overflow: hidden;
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ padding: 0px;
+ border: 0px;
+ clip: rect(0 0 0 0);
+ overflow: hidden;
 }
 .navigation {
-list-style: none;
-line-height: 26px;
-font-weight: bold;
-background-color: white;
+ line-height: 26px;
+ font-weight: bold;
+ background-color: white;
 }
 .navigation-logo {
-position: absolute; 
-right: 50%;
+ position: absolute; 
+ right: 50%;
    
 }
 .navigation-list  {
@@ -35,109 +34,161 @@ right: 50%;
 
 }
 .navigation-list a {
-color: black;
-text-decoration: none;
-line-height: 26px;    
+ color: black;
+ text-decoration: none;
+ line-height: 26px;    
 }
 .photography {
-background-image: url(../img/backgroundphoto.jpg);
-background-repeat: no-repeat;
+ background-image: url(../img/backgroundphoto.jpg);
+ background-repeat: no-repeat;
 }
 .advantage {
     
 }
 .advantage-arizona {
-font-size: 21px;
-line-height: 26px;
-font-weight: bold;
+ font-size: 21px;
+ line-height: 26px;
+ font-weight: bold;
 }
 .advantage-best {
-line-height: 26px;
+ line-height: 26px;
 }
 .advantage h2 {
-font-size: 21px; 
-line-height: 21px;   
+ font-size: 21px; 
+ line-height: 21px;   
 }
 .find {
 
 }
 .find-interested {
-font-size: 30px;
-line-height: 36px;
+ font-size: 30px;
+ line-height: 36px;
 }
 .find-date {
-line-height: 24px;
+ line-height: 24px;
 }
 .find button {
-font-size: 21px;
-line-height: 26px;
-font-weight: bold;
-color: white;
-text-transform: uppercase;
+ font-size: 21px;
+ line-height: 26px;
+ font-weight: bold;
+ color: white;
+ text-transform: uppercase;
 }
+ 
+
 .find-hotels {
-background-color: #766357;
+ background-color: #766357;
+}
+.find-hotels:hover {
+ background-color: #604e43;
+}
+.find-hotels:active{
+ background-color: #503e33;
+ color: #857871;
 }
 .find-search {
-background-color: #81b3d2;    
+ background-color: #81b3d2;    
+}
+.find-search:hover {
+ background-color: #669ec0;    
+}
+.find-search:active {
+ background-color: #5496bd;
+ color: #88b6d1;   
 }
 .find label {
-line-height: 26px;
-font-weight: bold;
+ line-height: 26px;
+ font-weight: bold;
 }
 .find input {
-line-height: 26px;
-font-weight: bold;
+ line-height: 26px;
+ font-weight: bold;
+}
+.find input:hover {
+ background-color: #f2f2f2;
+}
+.find input:focus {
+ background-color: #ffffff;
 }
 .footer {
 
 }
 .footer-visit {
-font-size: 21px;
-line-height: 26px;
-font-weight: bold;    
+ font-size: 21px;
+ line-height: 26px;
+ font-weight: bold;    
 }
 .footer-visit a {
-text-decoration: none;
-color: black;
-font-weight: bold;
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
 }
 .footer-site {
-line-height: 26px;
+ line-height: 26px;
 }
+
+
 .footer-social {
-background-color: #81b3d2;
-list-style: none;
+ background-color: #81b3d2;
+ list-style: none;
 }
+.footer-social:hover {
+ background-color: #669ec0;
+}
+.footer-social:active {
+ background-color: #5496bd;
+ color: #88b6d1; 
+}
+
 .hotels {
 
 }
 .hotels-list{
-list-style: none;
+ list-style: none;
+}
+.hotels-list a:hover {
+ color: #81b3d2;
+}
+.hotels-list a:active {
+ color: #cacaca;
 }
 .hotels h2 {
-font-size: 21px;
-line-height: 26px;
-font-weight: bold;   
+ font-size: 21px;
+ line-height: 26px;
+ font-weight: bold;   
 }
 .hotels a {
-color: black;
-text-decoration: none;   
+ color: black;
+ text-decoration: none;   
 }
 .hotels button {
-line-height: 21px;
-font-weight: bold;
-color: white;
-text-transform: uppercase;
+ line-height: 21px;
+ font-weight: bold;
+ color: white;
+ text-transform: uppercase;
 }
 
 .hotels-details{
-background-color: #81b3d2;
+ background-color: #81b3d2;
 }
+.hotels-details:hover {
+ background-color: #669ec0;   
+}
+ .hotels-details:active {
+ background-color: #5496bd; 
+ color: #7eb0cd;  
+    }
 
-.hotels-reserved{
-background-color: #766357;
+.hotels-reserved {
+ background-color: #766357;
 }
+.hotels-reserved:hover {
+ background-color: #604e43;    
+}
+.hotels-reserved:active {
+ background-color: #503e33;
+ color: #857871;    
+   }
 
 
 
