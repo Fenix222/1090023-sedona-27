@@ -8,14 +8,15 @@
     <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
+    <div class="centering">
     <header>
       <nav class="navigation">
         <a class="navigation-logo" href="index.html"><img src="img/logo-sedona.svg" width="140" height="72" alt="Логотип Добро пожаловать в Седона"></a>
         <ul class="navigation-list">
-          <li><a href="#">Информация</a></li>
-          <li><a href="#"> Фото и видео</a></li>
-          <li><a href="#">карта штата</a> </li>
-          <li><a href="hotels.html">гостиницы</a> </li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#"> Фото и видео</a></li>
+            <li><a href="#">карта штата</a> </li>
+            <li><a href="hotels.html">гостиницы</a> </li>
         </ul> 
         </nav>
      </header>
@@ -26,9 +27,11 @@
       </section>
         <section class="advantage">
           <h2 class="visually-hidden">5 приемуществ отдыха в Седоне</h2>
-            <p class="advantage-arizona">Седона - Небольшой городок в Аризоне,
+          <div class="advantage-block">
+          <p class="advantage-arizona">Седона - Небольшой городок в Аризоне,
               заслуживающий большего!</p>
             <p class="advantage-best">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+          </div>
           <ul>
             <li>
               <img src="img/photo1.jpg"  alt="фотография города">
@@ -77,53 +80,63 @@
             </li>
           </ul> 
         </section>
+
           <section class="find">
             <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-              <p class="find-interested">заинтересовались?</p>
-              <p class="find-date">Укажите предполагаемые даты поездки,
-              и мы покажем вам лучшие предложения гостиниц в седоне</p>
-              <button class="find-hotels" type="button">Поиск гостиницы в Седоне</button>
-              <form action="https://echo.htmlacademiy.ru" method="post">
-              <p>
-                <label for="arrival-date">Дата заезда</label>
-                <input id="arrival-date" type="date" name="data" value="2017-04-24">
+            
+          <div class="find-block">
+            <p class="find-interested">заинтересовались?</p>
+            <p class="find-date">Укажите предполагаемые даты поездки,<br>
+            и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          </div>
+
+          <div class="find-form"> 
+            <button class="find-hotels" type="button">Поиск гостиницы в Седоне</button>
+            <form action="https://echo.htmlacademiy.ru" method="post">
+            <div class="find-calendar">
+              <p class="find-arrival">
+                <label for="arrival-date">Дата заезда:</label>
+                <input class="arrival-input" id="arrival-date" type="date" name="data" value="2017-04-24">
               </p>
-              <p>
-                <label for="departure-data">Дата выезда</label>
-                <input id="departure-data" type="date" name="data" value="2017-07-04">
+              <p class="find-departure">
+                <label for="departure-data">Дата выезда:</label>
+                <input class="arrival-input" id="departure-data" type="date" name="data" value="2017-07-04">
               </p>
-              <p>
-              <label for="adults">Взрослые</label>
+            <div class="find-guests">
+              <p class="find-guests-adults">
+              <label class="guests-adults" for="adults">Взрослые:</label>
                 <button></button>
-                <input id="adults" type="number" name="number" value="2">
+                <input class="find-guests-input"  id="adults" type="number" name="number" value="2">
                 <button></button>
               </p>
-              <p>
-                <label for="children">Дети</label>
+              <p class="find-guests-children">
+                <label class="guests-adults" for="children">Дети:</label>
                 <button type="button"></button>
-                <input id="children" type="number" name="number" value="0">
+                <input class="find-guests-input" id="children" type="number" name="number" value="0">
                 <button type="button"></button>
               </p>
+            </div>
+            </div>
               <button class="find-search" type="submit">Найти</button>
             </form>
+          </div>
       </section>  
-     </main>    
+     </main> 
      <footer class="footer">
         <p class="footer-visit">
-          #visitsedona
+          #visitsedona<br>
           <a href="tel:+1-303-499-7111">тел: +7(495)666-0266</a>
         </p>
-          <div>
-            <ul class="footer-social">
-              <li><a href="#" aria-label="Твиттер"><img src="img/twitter.svg" alt="Твиттер"></a></li>
-              <li><a href="#" aria-label="Фейсбук"><img src="img/fb-icon.svg" alt="Фейсбук"></a></li>
-              <li><a href="#" aria-label="Ютуб"><img src="img/youtube.svg" alt="Ютуб"></a></li>
+           <ul class="footer-social">
+              <li><a class="footer-twitter" href="#" aria-label="Твиттер"><img src="img/twitter.svg" alt="Твиттер"></a></li>
+              <li><a class="footer-facebook" href="#" aria-label="Фейсбук"><img src="img/fb-icon.svg" alt="Фейсбук"></a></li>
+              <li><a class="footer-youtube" href="#" aria-label="Ютуб"><img src="img/youtube.svg" alt="Ютуб"></a></li>
             </ul>
-          </div>
-          <p class="footer-site">
-            website by
+        <p class="footer-site">
+           website by
             <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="логотип академии"></a>
           </p>
      </footer>
+    </div>
  </body>
 </html>
