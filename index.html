@@ -92,8 +92,8 @@
 
           <div class="find-form"> 
             <button class="find-hotels" type="button">Поиск гостиницы в Седоне</button>
-            <form action="https://echo.htmlacademiy.ru" method="post">
-            <div class="find-calendar">
+            <form class="find-form-action" action="https://echo.htmlacademiy.ru" method="post">
+            <fieldset class="find-calendar">
               <p class="find-arrival">
                 <label for="arrival-date">Дата заезда:</label>
                 <input class="arrival-input" id="arrival-date" type="date" name="data" value="2017-04-24">
@@ -103,23 +103,24 @@
                 <input class="arrival-input" id="departure-data" type="date" name="data" value="2017-07-04">
               </p>
             <div class="find-guests">
-              <p class="find-guests-adults">
+              <p class="find-guests-adults">
               <label class="guests-adults" for="adults">Взрослые:</label>
-                <button></button>
+              <button class="find-guests-button" type="button">+</button>
                 <input class="find-guests-input"  id="adults" type="number" name="number" value="2">
-                <button></button>
+                <button class="find-guests-button" type="button">-</button>
               </p>
               <p class="find-guests-children">
                 <label class="guests-adults" for="children">Дети:</label>
-                <button type="button"></button>
+                <button class="find-guests-button" type="button">+</button>
                 <input class="find-guests-input" id="children" type="number" name="number" value="0">
-                <button type="button"></button>
+                <button class="find-guests-button" type="button">-</button>
               </p>
             </div>
-            </div>
+            </fieldset>
               <button class="find-search" type="submit">Найти</button>
             </form>
           </div>
+          <img class="find-form-map"  src="img/map.jpg" alt="карта">
       </section>  
      </main> 
      <footer class="footer">

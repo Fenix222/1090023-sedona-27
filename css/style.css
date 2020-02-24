@@ -11,6 +11,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 
 }
 .visually-hidden {
@@ -33,6 +34,8 @@ body {
     position: absolute; 
     right: 50%;
     margin-right: -70px;
+    z-index: 1;
+    top: 0px;
     
 }
 
@@ -73,6 +76,7 @@ body {
     height: 510px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
     padding-top: 61px;
     text-align: center;
     background-position: center;
@@ -84,11 +88,10 @@ body {
     display: block;
     background-image: url(../img/polygon.png);
     position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 1px;
+    height: 59px;
     left: -1px;
-    top: -1px;
+    right: -1px;
+    bottom: -2px;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
@@ -134,7 +137,6 @@ body {
 }
 .find-block {
     background-color: white;
-    height: 290px;
 }
 
 .find-interested {
@@ -152,12 +154,19 @@ body {
 .find-form {
     background-color: white;
     width: 568px;
-    height: 481px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -86px;
     position: relative;
+}
+.find-form-action {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 55px;
+}
+.find-form-map {
+    
 }
 .find button {
     font-size: 21px;
@@ -175,46 +184,76 @@ body {
 }
 .find-calendar {
     width: 450px;
-    height: 275px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
+    border: 0;
+    display: block;
+    margin-bottom: 55px;
+    outline: 2px solid green;
+    display: flex;
+    
 
 }
 .find-arrival {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    
 }
+
 .find-departure {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    
 }
 .find-guests {
     display: flex;
+    
+    
+    
 }
+
 .find-guests-adults {
     display: flex;
     width: 220px;
     height: 37px;
+    outline: 2px solid yellow;
+
 }
 .guests-adults {
-    margin-right: 30px;
+    margin-right: 40px;    
 }
 .find-guests-input {
     width: 80px;
     background-color: #f2f2f2;
-    text-align: center;   
+    text-align: center; 
+    border: 0px;  
+}
+.find-guests-button {
+    border: 0px;
+    background-color: #f2f2f2;
+    
+    
+
+     
 }
 .find-guests-children {
     display: flex;
     width: 220px;
     height: 37px;
     margin-left: 47px;
+    outline: 2px solid violet;
+
+    
 }
 .arrival-input {
     width: 340px;
+    height: 35px;
     background-color:#f2f2f2;
+    border: 0px;
+    margin-right: 50px;
 }
 
 .find-hotels:hover {
@@ -223,12 +262,13 @@ body {
 .find-hotels:active{
     background-color: #503e33;
     color: #857871;
+    
 }
 .find-search {
     background-color: #81b3d2; 
     width: 458px; 
     height: 58px;  
-    margin-top: -54px;
+    
 }
 .find-search:hover {
     background-color: #669ec0;    
@@ -329,6 +369,8 @@ body {
 .hotels-list{
     list-style: none;
 }
+
+
 .hotels-list a:hover {
     color: #81b3d2;
 }
