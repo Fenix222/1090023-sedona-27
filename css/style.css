@@ -781,11 +781,12 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
+  margin-left: 4px;
 }
 
 .price-controls {
   position: relative;
-  height: 34px;
+  height: 33px;
   margin-bottom: 18px;
   font-size: 0;
   border: 2px solid #ffffff;
@@ -806,7 +807,7 @@ img {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 28px;
   vertical-align: top;
   cursor: pointer;
 }
@@ -814,7 +815,7 @@ img {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 61px;
+  padding-left: 62px;
 }
 
 .price-controls input {
@@ -962,13 +963,12 @@ img {
 .hotel-filters-1 {
   display: flex;
   justify-content: space-between;
-  width: 50%;
   align-items: center;
-
 }
 
 .hotel-filters-sorting {
   font-size: 12px;
+  margin-left: 48px;
 }
 
 .hotel-underline {
@@ -977,6 +977,7 @@ img {
   cursor: pointer;
   text-decoration: none;
   font-size: 12px;
+  margin-left: 33px;
 }
 
 .hotel-underline:hover {
@@ -993,6 +994,7 @@ img {
   text-decoration: none;
   cursor: pointer;
   font-size: 12px;
+  margin-left: 40px;
 }
 
 .icon-up {
@@ -1130,6 +1132,7 @@ img {
 .hotels a {
   text-decoration: none;
   padding: 0;
+  letter-spacing: 0.6px;
 }
 
 .hotels-details {
